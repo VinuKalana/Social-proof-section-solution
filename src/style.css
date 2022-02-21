@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Spartan", sans-serif;
+}
+
+.section-proof {
+  max-width: 120rem;
+  margin: 9.6rem auto;
+  padding: 3.2rem;
+}
+
+.proof-summary {
+  display: flex;
+  padding: 3.2rem;
+  justify-content: space-between;
+}
+
+.summary-description {
+  width: 50%;
+}
+
+.heading-primary {
+  color: hsl(300, 43%, 22%);
+  font-size: 4.8rem;
+  font-weight: 700;
+  padding: 2rem 0;
+  /* line-height: 1.6; */
+}
+
+.description-text {
+  color: hsl(303, 10%, 53%);
+  font-size: 1.6rem;
+  line-height: 1.6;
+  font-weight: 400;
+  padding: 2rem 2rem 2rem 0;
+}
+
+.proof-ratings {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 2rem;
+  padding: 3.2rem 2rem;
+}
+
+.left {
+  justify-self: left;
+  margin-left: 0;
+}
+
+.center {
+  justify-self: center;
+  margin: 0 2rem;
+}
+
+.right {
+  justify-self: right;
+  margin-right: 0;
+}
+
+.rating {
+  display: flex;
+
+  gap: 2.4rem;
+  align-items: center;
+  padding: 2rem 3.2rem;
+  background-color: hsl(300, 24%, 96%);
+}
+
+.summary {
+  color: hsl(300, 43%, 22%);
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.proof-testimonials {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 3.2rem;
+  gap: 3.2rem;
+}
+
+.contentbox {
+  background-color: hsl(300, 43%, 22%);
+  padding: 3.2rem 2.4rem;
+  border-radius: 15px;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+  font-size: 1.4rem;
+}
+
+.avatar {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.name {
+  color: #fff;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 0.1rem;
+}
+
+.tag {
+  color: hsl(333, 80%, 67%);
+  font-weight: 400;
+}
+
+.testimonial {
+  color: hsl(300, 24%, 96%);
+  font-size: 1.2rem;
+  line-height: 1.5;
+  padding: 2rem 0;
+}
+
+.top {
+  align-self: top;
+  margin-bottom: 2rem;
+}
+
+.middle {
+  align-self: center;
+  margin: 1rem 0;
+}
+
+.bottom {
+  align-self: bottom;
+  margin-top: 2rem;
+}
